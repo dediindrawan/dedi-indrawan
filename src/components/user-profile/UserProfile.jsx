@@ -32,7 +32,7 @@ const UserProfile = () => {
   return (
     <>
       <span>
-        <img src="/src/assets/user-profile.jpg" alt="image" ref={userImageRef} onClick={handleClickImage} />
+        <img src="https://i.ibb.co.com/NpWCWh5/img-1.jpg" alt="image" ref={userImageRef} onClick={handleClickImage} />
         <span ref={userTextRef}>
           <h1>👋 Hi, I'm Dedi.</h1>
           <p>Let's get connected:</p>

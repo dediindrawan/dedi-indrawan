@@ -35,58 +35,58 @@
         {
             "id": 1,
             "url": "https://linkedin.com/in/dediindrawan",
-            "icon": "./src/assets/linkedin.png"
+            "icon": "https://i.ibb.co.com/ww1d3X9/linkedin.png"
         },
         {
             "id": 2,
             "url": "https://github.com/dediindrawan",
-            "icon": "./src/assets/github.png"
+            "icon": "https://i.ibb.co.com/bdMxPzx/github.png"
         },
         {
             "id": 3,
             "url": "https://instagram.com/dediindra_one",
-            "icon": "./src/assets/instagram.png"
+            "icon": "https://i.ibb.co.com/L1Q8tp3/instagram.png"
         },
         {
             "id": 4,
             "url": "https://youtube.com/c/DediIndrawan",
-            "icon": "./src/assets/youtube.png"
+            "icon": "https://i.ibb.co.com/Xs7gYt1/youtube.png"
         }
     ],
     "techIcons": [
         {
             "id": 1,
-            "icon": "/src/assets/html.png"
+            "icon": "https://i.ibb.co.com/10tF2Gc/html.png"
         },
         {
             "id": 2,
-            "icon": "/src/assets/css.png"
+            "icon": "https://i.ibb.co.com/3WGt3cN/css.png"
         },
         {
             "id": 3,
-            "icon": "/src/assets/sass.png"
+            "icon": "https://i.ibb.co.com/JCw4bKg/sass.png"
         },
         {
             "id": 4,
-            "icon": "/src/assets/javascript.png"
+            "icon": "https://i.ibb.co.com/Sv0cnhc/javascript.png"
         },
         {
             "id": 5,
-            "icon": "/src/assets/tailwind.png"
+            "icon": "https://i.ibb.co.com/FKt9LzY/tailwind.png"
         },
         {
             "id": 6,
-            "icon": "/src/assets/git.png"
+            "icon": "https://i.ibb.co.com/r4D71FT/git.png"
         },
         {
             "id": 7,
-            "icon": "/src/assets/reactjs.png"
+            "icon": "https://i.ibb.co.com/x5ygGCX/reactjs.png"
         }
     ],
     "projects": [
         {
             "id": 1,
-            "thumbnail": "/src/assets/papanots-steak.gif",
+            "thumbnail": "https://i.ibb.co.com/QPpZBh4/papanots-steak.gif",
             "description": "Restaurant Steak Website",
             "stacks": [
                 "/src/assets/html.png",
@@ -98,7 +98,7 @@
         },
         {
             "id": 2,
-            "thumbnail": "/src/assets/task-manager.gif",
+            "thumbnail": "https://i.ibb.co.com/rmv7tXD/task-manager.gif",
             "description": "Task Manager Application",
             "stacks": [
                 "/src/assets/html.png",
@@ -110,7 +110,7 @@
         },
         {
             "id": 3,
-            "thumbnail": "/src/assets/personal-portfolio.gif",
+            "thumbnail": "https://i.ibb.co.com/98KmWqP/personal-portfolio.gif",
             "description": "Personal Portfolio Website",
             "stacks": [
                 "/src/assets/html.png",
@@ -125,7 +125,7 @@
     "testimonials": [
         {
             "id": 1,
-            "image": "/src/assets/deni-heru-septian.jpg",
+            "image": "https://i.ibb.co.com/3vnKzbF/deni-heru-septian.jpg",
             "client": "Deni Heru Septian",
             "title": "Owner of Papanots Steak",
             "instagramUrl": "https://instagram.com/papadenot",
@@ -138,7 +138,7 @@
             "id": 1,
             "instagram": "dediindra_one",
             "urlInstagram": "https://instagram.com/dediindra_one",
-            "companyLogo": "/src/assets/logo-2.png",
+            "companyLogo": "https://i.ibb.co.com/GcSQ2D5/logo-2.png",
             "companyName": "Freelance Front End Developer",
             "jobPosition": "Front End Developer",
             "periode": "September 2023 - Present",
@@ -157,7 +157,7 @@
             "id": 2,
             "instagram": "bluebirdgroup",
             "urlInstagram": "https://instagram.com/bluebirdgroup",
-            "companyLogo": "/src/assets/bluebird.png",
+            "companyLogo": "https://i.ibb.co.com/L6rT6Jc/bluebird.png",
             "companyName": "PT. Blue Bird Group - Jakarta, Indonesia",
             "jobPosition": "Dispatcher Hotel / Sales Counter",
             "periode": "October 2018 - December 2020",
@@ -172,7 +172,7 @@
             "id": 3,
             "instagram": "carvilofficial",
             "urlInstagram": "https://instagram.com/carvilofficial",
-            "companyLogo": "/src/assets/carvil.png",
+            "companyLogo": "https://i.ibb.co.com/pb92Ntd/carvil.png",
             "companyName": "PT. Mitra Abadi Jaya Bersama (Carvil) - Jakarta, Indonesia",
             "jobPosition": "Managing Partner & Branch Store Manager (Bogor)",
             "periode": "August 2017 - September 2018",
@@ -188,21 +188,21 @@
         {
             "id": 1,
             "video": "https://youtu.be/66GvN5k8SpA?si=gxt1GF-BupuHEmXB",
-            "gif": "/src/assets/list-item-react.gif",
+            "gif": "https://i.ibb.co.com/KmvWdq0/list-item-react.gif",
             "title": "Learn About List Item In React.js",
             "description": "Understanding the proper way to create list items according to the best practices in a React.js."
         },
         {
             "id": 2,
             "video": "https://youtu.be/8b6osjauJN8?si=WqF_7meXaMVp0sdC",
-            "gif": "/src/assets/filter-data-js.gif",
+            "gif": "https://i.ibb.co.com/Tq7VHn9/filter-data-js.gif",
             "title": "Learn Filter Data in JavaScript",
             "description": "Creating test cases for the data search feature by implementing the filter method in JavaScript."
         },
         {
             "id": 3,
             "video": "https://youtu.be/KcosfJiAq_w?si=Sg-uhmxhUfhl1KLz",
-            "gif": "/src/assets/navigation-js.gif",
+            "gif": "https://i.ibb.co.com/M1dx5gt/navigation-js.gif",
             "title": "Learn Navigation in JavaScript",
             "description": "Understanding several concepts and methods for creating page navigation in HTML and JavaScript."
         }

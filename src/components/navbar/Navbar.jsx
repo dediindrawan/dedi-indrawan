@@ -36,7 +36,7 @@ const Navbar = () => {
     <>
       <div className="navbar-brand">
         <a href="/index.html">
-          <img src="_src/assets/logo.png" alt="logo" />
+          <img src="https://i.ibb.co.com/WDVCL9Y/logo.png" alt="logo" />
           <h1>Dedi Indrawan</h1>
         </a>
 

@@ -6,7 +6,7 @@ const Profile = () => {
       <h1 className="section-title">About Me</h1>
 
       <figure className="profile-description">
-        <img src="/src/assets/profile-image.webp" alt="image" loading="lazy" className="reveal-left" />
+        <img src="https://i.ibb.co.com/d0mfMWg/profile-image.png" alt="image" loading="lazy" className="reveal-left" />
         <figcaption>
           <article className="reveal-bottom">
             As a passionate Front End Developer with over one year of experience, I specialize in crafting responsive and user friendly websites using HTML, CSS, and JavaScript. I am currently enhancing my skills in React.js to build
