@@ -124,7 +124,7 @@
 
     /* ========== Main Style Area ========== */
     & .content-container {
-      @apply max-w-md mx-auto px-4 sm:max-w-screen-sm sm:px-8 md:max-w-screen-md md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl;
+      @apply max-w-md mx-auto px-4 text-justify sm:max-w-screen-sm sm:px-8 md:max-w-screen-md md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl;
 
       /* ========== Profile Style Area ========== */
       & .profile {
@@ -138,7 +138,11 @@
           @apply flex flex-col-reverse gap-4 lg:flex-row-reverse lg:items-center;
 
           & img {
-            @apply max-w-sm mx-auto lg:-mt-4 lg:-mr-8;
+            @apply w-full max-w-sm mx-auto lg:-mt-4 lg:-mr-8;
+          }
+
+          & figcaption {
+            @apply lg:max-w-lg xl:max-w-screen-md;
           }
         }
 
@@ -309,6 +313,8 @@
             }
 
             & .card-description {
+              @apply text-start;
+
               & h1 {
                 @apply text-lg font-semibold text-white lg:text-lg;
               }
