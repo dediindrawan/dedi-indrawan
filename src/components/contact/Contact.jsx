@@ -19,7 +19,7 @@ const Contact = () => {
         <h1 className="section-title">Contact Me</h1>
 
         <span className="user-contact">
-          <img src="/src/assets/user-profile.jpg" alt="image" loading="lazy" />
+          <img src="./src/assets/user-profile.jpg" alt="image" loading="lazy" />
           <span>
             <h1>Send me an email:</h1>
             <a href="mailto:dediindrawan812@gmail.com" target="_blank" rel="noopener nooreferrer">
