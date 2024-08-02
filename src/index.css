@@ -131,7 +131,7 @@
         @apply pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:left-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:rotate-45 before:origin-bottom-left before:blur-3xl;
 
         & .section-title {
-          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+          @apply w-max mb-6 text-xl text-nowrap font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
         }
 
         & .profile-description {
@@ -182,7 +182,7 @@
         @apply mt-8 pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:top-1/2 before:right-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:-rotate-45 before:origin-bottom-right before:blur-3xl;
 
         & .section-title {
-          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+          @apply w-max mb-6 text-xl text-nowrap font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
         }
 
         & article {
@@ -287,7 +287,7 @@
         @apply mt-8 pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:left-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:rotate-45 before:origin-bottom-left before:blur-3xl;
 
         & .section-title {
-          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+          @apply w-max mb-6 text-xl text-nowrap font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
         }
 
         & article {
@@ -336,7 +336,7 @@
         @apply mt-8 pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:top-1/2 before:right-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:-rotate-45 before:origin-bottom-right before:blur-3xl;
 
         & .section-title {
-          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+          @apply w-max mb-6 text-xl text-nowrap font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
         }
 
         & article {

@@ -39,7 +39,7 @@ const Contact = () => {
 
       <p className='copyright'>
         &copy; <span ref={copyrightRef}></span> |{' '}
-        <a href="/index.html" target="_blank" rel="noopener nooreferrer">
+        <a href="https://dedi-indrawan.vercel.app/" target="_blank" rel="noopener nooreferrer">
           Dedi Indrawan
         </a>
       </p>

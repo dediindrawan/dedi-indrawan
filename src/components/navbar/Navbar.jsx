@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar-brand">
-        <a href="/index.html">
+        <a href="https://dedi-indrawan.vercel.app/">
           <img src="https://i.ibb.co.com/2FqrBCm/logo.png" alt="logo" />
           <h1>Dedi Indrawan</h1>
         </a>
