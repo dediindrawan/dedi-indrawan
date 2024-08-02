@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html,
+  body {
+    @apply scroll-smooth text-gray-400 bg-slate-900;
+  }
+
+  body {
+    @apply text-sm font-poppins leading-relaxed relative after:hidden after:absolute after:w-full after:min-h-screen after:top-0 after:bottom-0 after:z-10 after:bg-black after:bg-opacity-70 lg:text-base;
+  }
+}
+
+@layer components {
+  .main-container {
+    @apply w-full;
+
+    /* ========== Navbar Style Area ========== */
+    & .navbar {
+      @apply w-full fixed top-0 z-50 border-b border-gray-400 border-opacity-15 lg:px-16 lg:flex lg:justify-between lg:gap-8 lg:items-center lg:backdrop-blur-md 2xl:max-w-screen-xl 2xl:top-8 2xl:left-1/2 2xl:-translate-y-1/2 2xl:-translate-x-1/2;
+
+      & .navbar-brand {
+        @apply h-16 px-4 flex justify-between items-center backdrop-blur-md sm:px-8 md:px-12 lg:px-0 lg:backdrop-blur-none;
+
+        & a {
+          @apply flex items-center gap-2;
+
+          & img {
+            @apply w-12 -ml-3 xl:-ml-6;
+          }
+
+          & h1 {
+            @apply text-lg font-semibold text-white lg:text-xl;
+          }
+        }
+
+        & .toggle-menu {
+          @apply w-10 h-10 text-xl flex justify-center items-center border border-sky-600 rounded-md bg-gradient-to-tr from-transparent from-35% to-sky-600 lg:hidden;
+        }
+      }
+
+      & .navbar-menu {
+        @apply max-w-sm flex flex-col gap-8 justify-between fixed top-16 bottom-0 -left-full border-r border-gray-400 border-opacity-15 transition-all duration-300 ease-in-out backdrop-blur-md overflow-y-auto lg:relative lg:top-0 lg:left-0 lg:max-w-full lg:flex-row lg:items-center lg:border-r-0 lg:transition-none lg:backdrop-blur-none;
+
+        & .navlink {
+          @apply lg:flex lg:gap-8;
+
+          & li {
+            @apply border-b border-gray-400 border-opacity-15 lg:border-b-0;
+
+            & a {
+              @apply inline-block w-full p-4 transition-colors duration-300 ease-in-out hover:text-white sm:px-8 md:px-12 lg:p-0;
+            }
+          }
+        }
+
+        & .user-profile {
+          @apply px-4 sm:px-8 md:px-12 lg:mr-0 lg:px-0;
+
+          & span {
+            @apply flex gap-2 lg:flex-col;
+
+            & img {
+              @apply w-12 aspect-square object-cover border border-sky-600 rounded-md lg:cursor-pointer;
+            }
+
+            & span {
+              @apply text-nowrap flex flex-col justify-end leading-none lg:hidden lg:w-52 lg:p-4 lg:fixed lg:top-16 lg:right-16 lg:z-50 lg:rounded-t-md lg:backdrop-blur-md lg:border-t lg:border-r lg:border-l lg:border-gray-400 lg:border-opacity-15;
+            }
+          }
+
+          & ul {
+            @apply my-4 flex gap-4 lg:hidden lg:w-52 lg:p-4 lg:fixed lg:top-28 lg:right-16 lg:z-50 lg:rounded-b-md lg:backdrop-blur-md lg:border-b lg:border-r lg:border-l lg:border-gray-400 lg:border-opacity-15;
+
+            & li {
+              & a {
+                & img {
+                  @apply w-10 aspect-square object-cover shadow-sm shadow-black rounded-md bg-slate-800;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* ========== Jumbotron Style Area ========== */
+    & .jumbotron {
+      @apply min-h-screen grid place-items-center relative z-10 before:absolute before:w-10 before:h-96 before:right-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:-rotate-45 before:origin-bottom-right before:blur-3xl 2xl:max-w-screen-xl 2xl:mx-auto;
+
+      & .jumbotron-content {
+        @apply px-4 text-center sm:mt-16 sm:max-w-screen-sm sm:mx-auto sm:px-8 md:max-w-screen-md lg:mt-0 md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl;
+
+        & h1 {
+          @apply text-xl text-white lg:text-2xl;
+        }
+
+        & h2 {
+          @apply mt-2 mb-4 text-2xl font-bold text-white lg:text-4xl;
+        }
+
+        & p {
+          @apply text-base lg:max-w-screen-md lg:mx-auto lg:text-lg;
+        }
+
+        & ul {
+          @apply mt-8 flex justify-center gap-6 lg:gap-8;
+
+          & li {
+            & a {
+              & img {
+                @apply w-10 aspect-square object-cover shadow-sm shadow-black rounded-md bg-slate-800 lg:w-14;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* ========== Main Style Area ========== */
+    & .content-container {
+      @apply max-w-md mx-auto px-4 sm:max-w-screen-sm sm:px-8 md:max-w-screen-md md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl;
+
+      /* ========== Profile Style Area ========== */
+      & .profile {
+        @apply pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:left-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:rotate-45 before:origin-bottom-left before:blur-3xl;
+
+        & .section-title {
+          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+        }
+
+        & .profile-description {
+          @apply flex flex-col-reverse gap-4 lg:flex-row-reverse lg:items-center;
+
+          & img {
+            @apply max-w-sm mx-auto lg:-mt-4 lg:-mr-8;
+          }
+        }
+
+        /* ========== Skill Style Area ========== */
+        & .skill-section {
+          @apply mt-24;
+
+          & figure {
+            @apply flex flex-col-reverse gap-4;
+
+            & ul {
+              @apply grid grid-cols-4 gap-4 sm:grid-cols-5 lg:grid-cols-6;
+
+              & li {
+                @apply p-4 flex justify-center items-center rounded-md shadow-sm shadow-black bg-slate-800 last:col-span-2 sm:first:row-span-2 lg:first:col-span-2 lg:first:row-span-1;
+
+                & img {
+                  @apply w-12 aspect-square object-cover lg:w-14;
+                }
+              }
+
+              & li:nth-child(4) {
+                @apply sm:col-span-2;
+              }
+
+              & li:nth-child(5),
+              li:nth-child(6) {
+                @apply lg:col-span-2;
+              }
+            }
+          }
+        }
+      }
+
+      /* ========== Project Style Area ========== */
+      & .project {
+        @apply mt-8 pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:top-1/2 before:right-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:-rotate-45 before:origin-bottom-right before:blur-3xl;
+
+        & .section-title {
+          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+        }
+
+        & article {
+          @apply mb-4;
+        }
+
+        & .card-wrapper {
+          @apply max-w-sm mx-auto grid grid-cols-1 gap-4 sm:max-w-screen-sm sm:grid-cols-2 lg:max-w-screen-lg lg:grid-cols-3;
+
+          & figure {
+            @apply flex flex-col rounded-md shadow-sm shadow-black bg-slate-800;
+
+            & span {
+              @apply p-1 inline-block rounded-md relative bg-slate-800;
+
+              & img {
+                @apply aspect-video object-cover rounded-md;
+              }
+
+              & blockquote {
+                @apply p-4 grid place-items-center absolute top-1 right-1 bottom-1 left-1 rounded-md transition-all duration-300 ease-in-out origin-bottom-left text-white scale-0 bg-slate-900 bg-opacity-95;
+              }
+            }
+
+            & span:hover blockquote {
+              @apply scale-100;
+            }
+
+            & figcaption {
+              @apply px-1;
+
+              & small {
+                @apply ml-2 lg:text-sm;
+              }
+
+              & .stack-icon {
+                @apply mb-2 pb-2 pl-2 flex gap-2 border-b border-gray-400 border-opacity-15;
+
+                & li {
+                  & img {
+                    @apply w-6;
+                  }
+                }
+              }
+
+              & .button-action {
+                @apply mb-3 text-sm flex justify-evenly gap-4 text-white;
+
+                & li {
+                  @apply min-w-32 text-center rounded-md shadow-sm shadow-black first:bg-gradient-to-tr first:from-transparent first:from-35% first:to-sky-600 last:bg-gradient-to-tl last:from-transparent last:from-35% last:to-sky-600;
+
+                  & a {
+                    @apply w-full p-2 inline-block rounded-md;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        & .testimony-section {
+          @apply mt-24 flex flex-col gap-4;
+
+          & .testimony-card {
+            @apply -mt-2 p-4 text-center rounded-md shadow-sm shadow-black bg-slate-800 md:text-start;
+
+            & .user-profile {
+              @apply w-full mb-2 pb-2 flex flex-col gap-4 border-b border-gray-400 border-opacity-15 md:pb-4 md:flex-row md:items-center;
+
+              & img {
+                @apply w-20 mx-auto aspect-square object-cover border border-sky-600 rounded-md bg-gray-400 md:mx-0;
+              }
+
+              & span {
+                @apply flex flex-col lg:text-lg;
+
+                & h1 {
+                  @apply text-lg font-semibold text-white;
+                }
+
+                & span {
+                  @apply mt-2;
+
+                  & a {
+                    @apply text-xs lg:text-sm;
+                  }
+                }
+              }
+            }
+
+            & span {
+              & button {
+                @apply mt-2;
+              }
+            }
+          }
+        }
+      }
+
+      /* ========== Experience Style Area ========== */
+      & .experience {
+        @apply mt-8 pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:left-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:rotate-45 before:origin-bottom-left before:blur-3xl;
+
+        & .section-title {
+          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+        }
+
+        & article {
+          @apply mb-4;
+        }
+
+        & .card-wrapper {
+          @apply flex flex-col gap-4;
+
+          & figure {
+            @apply px-4 pb-4 rounded-md shadow-sm shadow-black bg-slate-800;
+
+            & .card-header {
+              @apply flex justify-between gap-4;
+
+              & img {
+                @apply w-32 aspect-video object-contain lg:w-36;
+              }
+
+              & a {
+                @apply mt-4 text-xs lg:text-sm;
+              }
+            }
+
+            & .card-description {
+              & h1 {
+                @apply text-lg font-semibold text-white lg:text-lg;
+              }
+
+              & span {
+                @apply mt-2 pb-2 flex flex-col border-b border-gray-400 border-opacity-15 lg:text-lg;
+              }
+
+              & ul {
+                @apply mt-2 pl-6 list-disc;
+              }
+            }
+          }
+        }
+      }
+
+      /* ========== Project Style Area ========== */
+      & .content {
+        @apply mt-8 pt-16 relative z-10 before:absolute before:w-10 before:h-96 before:top-1/2 before:right-0 before:-z-10 before:bg-gradient-to-tr before:from-cyan-500 before:to-sky-600 before:rounded-full before:-rotate-45 before:origin-bottom-right before:blur-3xl;
+
+        & .section-title {
+          @apply w-max mb-6 text-xl font-semibold text-white relative after:absolute after:w-full after:h-1 after:-mb-1 after:bottom-0 after:left-0 after:bg-gradient-to-tr after:from-sky-600 after:to-transparent after:to-50% after:rounded-full lg:text-2xl;
+        }
+
+        & article {
+          @apply mb-4;
+        }
+
+        & .card-wrapper {
+          @apply max-w-sm mx-auto grid grid-cols-1 gap-4 sm:max-w-screen-sm sm:grid-cols-2 lg:max-w-screen-lg lg:grid-cols-3;
+
+          & figure {
+            @apply p-1 flex flex-col rounded-md shadow-sm shadow-black bg-slate-800;
+
+            & a {
+              & img {
+                @apply aspect-video object-contain rounded-md;
+              }
+
+              & figcaption {
+                @apply p-2 text-center;
+
+                & h1 {
+                  @apply mb-2 pb-2 text-base font-semibold text-white border-b border-gray-400 border-opacity-15;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* ========== Footer Or Contact Style Area ========== */
+    & .contact {
+      @apply mt-20 pt-12 2xl:max-w-screen-xl 2xl:mx-auto;
+
+      & .contact-wrapper {
+        @apply pb-4 bg-gradient-to-tr from-transparent from-35% to-sky-600;
+
+        & .contact-profile {
+          @apply max-w-md mx-auto mb-8 pt-4 px-4 sm:max-w-screen-sm sm:px-8 md:max-w-screen-md md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl;
+
+          & .section-title {
+            @apply mb-6 text-xl font-semibold text-white lg:text-2xl;
+          }
+
+          & .user-contact {
+            @apply flex flex-col gap-4;
+
+            & img {
+              @apply w-28 aspect-square object-cover border border-sky-600 rounded-md;
+            }
+
+            & span {
+              & h1 {
+                @apply font-semibold text-white;
+              }
+            }
+          }
+        }
+
+        & .social-media {
+          @apply mb-4 pb-6 border-b border-gray-400 border-opacity-15;
+
+          & h1 {
+            @apply max-w-md mx-auto mb-2 px-4 font-semibold text-white sm:max-w-screen-sm sm:px-8 md:max-w-screen-md md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl;
+          }
+
+          & ul {
+            @apply max-w-md mx-auto px-4 flex gap-6 sm:max-w-screen-sm sm:px-8 md:max-w-screen-md md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl;
+
+            & li {
+              & a {
+                & img {
+                  @apply w-10 aspect-square object-cover shadow-sm shadow-black rounded-md bg-slate-800 lg:w-12;
+                }
+              }
+            }
+          }
+        }
+
+        & .copyright {
+          @apply max-w-md mx-auto px-4 sm:max-w-screen-sm sm:px-8 md:max-w-screen-md md:px-12 lg:max-w-screen-lg lg:px-16 xl:max-w-screen-xl xl:text-base;
+        }
+      }
+    }
+  }
+}
+
+@layer utilities {
+  body.overlay-active {
+    @apply overflow-y-hidden after:block;
+  }
+
+  .navbar-menu.active {
+    @apply left-0 !important;
+  }
+
+  .open-user-navbar {
+    @apply lg:flex !important;
+  }
+
+  /* ========== Fade In Page Loaded Animation Style Area ========== */
+  .fade-in-top {
+    animation: fade-in-top 1s ease-in-out;
+  }
+
+  @keyframes fade-in-top {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+
+  @keyframes fade-in-bottom {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* ========== Scroll Reveal Animation Style Area ========== */
+  .reveal-left {
+    animation: reveal-image-left ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+  }
+
+  @keyframes reveal-image-left {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .reveal-bottom {
+    animation: reveal-image-bottom ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+  }
+
+  @keyframes reveal-image-bottom {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
