@@ -35,22 +35,22 @@
         {
             "id": 1,
             "url": "https://linkedin.com/in/dediindrawan",
-            "icon": "../assets/linkedin.png"
+            "icon": "./src/assets/linkedin.png"
         },
         {
             "id": 2,
             "url": "https://github.com/dediindrawan",
-            "icon": "/src/assets/github.png"
+            "icon": "./src/assets/github.png"
         },
         {
             "id": 3,
             "url": "https://instagram.com/dediindra_one",
-            "icon": "/src/assets/instagram.png"
+            "icon": "./src/assets/instagram.png"
         },
         {
             "id": 4,
             "url": "https://youtube.com/c/DediIndrawan",
-            "icon": "/src/assets/youtube.png"
+            "icon": "./src/assets/youtube.png"
         }
     ],
     "techIcons": [
