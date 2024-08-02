@@ -89,9 +89,9 @@
             "thumbnail": "https://i.ibb.co.com/QPpZBh4/papanots-steak.gif",
             "description": "Restaurant Steak Website",
             "stacks": [
-                "/src/assets/html.png",
-                "/src/assets/tailwind.png",
-                "/src/assets/javascript.png"
+                "https://i.ibb.co.com/10tF2Gc/html.png",
+                "https://i.ibb.co.com/FKt9LzY/tailwind.png",
+                "https://i.ibb.co.com/Sv0cnhc/javascript.png"
             ],
             "preview": "https://papanots-steak.vercel.app/",
             "repo": "https://github.com/dediindrawan/papanots-steak.git"
@@ -101,9 +101,9 @@
             "thumbnail": "https://i.ibb.co.com/rmv7tXD/task-manager.gif",
             "description": "Task Manager Application",
             "stacks": [
-                "/src/assets/html.png",
-                "/src/assets/tailwind.png",
-                "/src/assets/javascript.png"
+                "https://i.ibb.co.com/10tF2Gc/html.png",
+                "https://i.ibb.co.com/FKt9LzY/tailwind.png",
+                "https://i.ibb.co.com/Sv0cnhc/javascript.png"
             ],
             "preview": "https://task-manager-apps.vercel.app/index.html",
             "repo": "https://github.com/dediindrawan/task-manager-apps.git"
@@ -113,10 +113,10 @@
             "thumbnail": "https://i.ibb.co.com/98KmWqP/personal-portfolio.gif",
             "description": "Personal Portfolio Website",
             "stacks": [
-                "/src/assets/html.png",
-                "/src/assets/css.png",
-                "/src/assets/sass.png",
-                "/src/assets/javascript.png"
+                "https://i.ibb.co.com/10tF2Gc/html.png",
+                "https://i.ibb.co.com/3WGt3cN/css.png",
+                "https://i.ibb.co.com/JCw4bKg/sass.png",
+                "https://i.ibb.co.com/Sv0cnhc/javascript.png"
             ],
             "preview": "https://dediindrawan.github.io/personal-portfolio/",
             "repo": "https://github.com/dediindrawan/personal-portfolio.git"
