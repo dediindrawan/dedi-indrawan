@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dedi-indrawan.vercel.app/sitemap.xml
