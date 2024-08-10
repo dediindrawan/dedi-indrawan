@@ -22,9 +22,9 @@ const Contact = () => {
           <img src="https://i.ibb.co.com/NpWCWh5/img-1.jpg" alt="image" loading="lazy" />
           <span>
             <h1>Send me an email:</h1>
-            <a href="mailto:dediindrawan812@gmail.com" target="_blank" rel="noopener nooreferrer">
+            <a href="mailto:dediindrawan218@gmail.com" target="_blank" rel="noopener nooreferrer">
               <FontAwesomeIcon icon={faEnvelope} className="mr-1" />
-              dediindrawan812@gmail.com
+              dediindrawan218@gmail.com
             </a>
           </span>
         </span>
@@ -37,7 +37,7 @@ const Contact = () => {
         </ul>
       </div>
 
-      <p className='copyright'>
+      <p className="copyright">
         &copy; <span ref={copyrightRef}></span> |{' '}
         <a href="https://dedi-indrawan.vercel.app/" target="_blank" rel="noopener nooreferrer">
           Dedi Indrawan

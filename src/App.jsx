@@ -4,7 +4,6 @@ import Profile from './components/profile/Profile';
 import Project from './components/project/Project';
 import Content from './components/content/Content';
 import Contact from './components/contact/Contact';
-import Experience from './components/experience/Experience';
 import './index.css';
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
       <main className="content-container">
         <Profile />
         <Project />
-        <Experience />
         <Content />
       </main>
 
