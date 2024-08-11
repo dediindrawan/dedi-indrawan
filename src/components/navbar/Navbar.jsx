@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import UserProfile from '../user-profile/UserProfile';
+import Logo from '/src/assets/logo.png';
 
 const Navbar = () => {
   const [isMenuActive, setMenuActive] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
     <>
       <div className="navbar-brand">
         <a href="https://dedi-indrawan.vercel.app/">
-          <img src="../src/assets/logo.png" alt="logo" />
+          <img src={Logo} alt="logo" />
           <h1>Dedi Indrawan</h1>
         </a>
 
