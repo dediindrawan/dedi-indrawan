@@ -17,16 +17,11 @@
         },
         {
             "id": 4,
-            "path": "#experience",
-            "page": "Experience"
-        },
-        {
-            "id": 5,
             "path": "#content",
             "page": "Content"
         },
         {
-            "id": 6,
+            "id": 5,
             "path": "#contact",
             "page": "Contact"
         }
